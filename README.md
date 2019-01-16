@@ -1,6 +1,6 @@
 ﻿# Really Simple Terraform Script to Configure Formatted Email Notifications for Newly Created S3 Objects
 
-This module is used to package and deploy a lamdba function which is triggered by the creation of object(s) in a specified S3 bucket, when triggered the lambda function sends a formatted email message via SES.    
+This module is used to package and deploy a Lambda function which is triggered by the creation of object(s) in a specified S3 bucket, when triggered the lambda function sends a formatted email message via SES.    
 
 The following variables are required, these will either rendered in the lambda function code before it is packaged and uploaded, or will be used in the Terraform script (`main.tf`).  
 
