@@ -1,0 +1,5 @@
+s3_bucket = "object-notification-test-bucket"
+sender_email = "sender@yourdomain.com"
+sender_name = "Email Sender"
+recipient = "recipient@yourdomain.com"
+subject = "New S3 Object Created"
